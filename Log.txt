@@ -1,1 +1,3 @@
 // 26/9/21, 21:11 --> Started project alpha
+
+// 26/9/21, 21:26 --> Added Log, Backend and Frontend to GitHub. Scaffolded Vue, and initialized fastapi venv
