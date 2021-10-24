@@ -1,0 +1,39 @@
+.card {
+  background-color: beige;
+  color: black;
+  padding: 0.8rem;
+  margin: 1rem;
+  border-radius: 0.7rem;
+}
+
+.cardred{
+  background-color: lightsalmon;
+  color: black;
+  padding: 1rem;
+  margin: 0.8rem;
+  border-radius: 0.7rem;
+}
+
+.day {
+  font-style: italic;
+  font-size: 1.6rem;
+  text-decoration: underline;
+}
+
+.latestart {
+  font-style: italic;
+  font-size: 1.3rem;
+  color: deepskyblue;
+}
+
+.timetable {
+  display: grid;
+  gap: .8rem;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.br {
+  display: block; 
+  content: ""; 
+  margin-top: .3rem; 
+}

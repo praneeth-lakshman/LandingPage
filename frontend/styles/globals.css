@@ -8,3 +8,23 @@ body {
   background-color: #131516;
   color: #d8d4cf;
 }
+
+.emails {
+  margin: 2rem;
+  font-size: 3rem;
+}
+
+.emailcontainer {
+  margin: 2rem;
+  font-size: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+  background-color: beige;
+  color: black;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.7rem;
+}
