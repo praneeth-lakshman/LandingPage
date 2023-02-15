@@ -8,8 +8,8 @@ def get_all_emails():
         string = string.replace('"', '').rstrip()
         return string
 
-    username = "5736@tiffin.kingston.sch.uk"
-    password = "Mars123!"
+    username = ""
+    password = ""
 
     imap = imaplib.IMAP4_SSL("imap-mail.outlook.com")
     imap.login(username, password)
